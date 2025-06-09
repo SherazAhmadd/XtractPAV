@@ -85,7 +85,7 @@ export PATH=$PATH:/path/to/XtractPAV/bin
         export PATH=/path/to/blast+/bin:$PATH
        ```
     3. **Bedtools**    
-      Bedtools - the swiss army knife for genome arithmetic. You can download via [Bedtools](https://bedtools.readthedocs.io/en/latest/). XtractPAV is not version specific to bedtool however version 2.27.1 or the latest version is preferred.
+      Bedtools - the swiss army knife for genome arithmetic. You can download via [**here**](https://bedtools.readthedocs.io/en/latest/). XtractPAV is not version specific to bedtool however version 2.27.1 or the latest version is preferred.
          ```
          sudo apt install bedtools
 
@@ -190,11 +190,11 @@ The final report includes interactive visualizations and a detailed table of PAV
 
 - **Figures**:
   1. **PAV Length Distribution**  
-     ![PAV Length Distribution](https://via.placeholder.com/600x400)
+     ![PAV Length Distribution](https://github.com/SherazAhmadd/XtractPAV/blob/main/PAV_length.png)
   2. **Number of PAVs per Chromosome**  
-     ![Number of PAVs per Chromosome](https://via.placeholder.com/600x400)
+     ![Number of PAVs per Chromosome](https://github.com/SherazAhmadd/XtractPAV/blob/main/PAVs_per_chromosome.png)
   3. **Percentage of PAVs per Chromosome**  
-     ![Percentage of PAVs per Chromosome](https://via.placeholder.com/600x400)
+     ![Percentage of PAVs per Chromosome](https://github.com/SherazAhmadd/XtractPAV/blob/main/PAVS_Distribution.png)
 
 - **PAV Details Table**:
   | Number of PAV | Chromosome       | Start   | End     | PAV Length |
@@ -206,7 +206,7 @@ The final report includes interactive visualizations and a detailed table of PAV
 
 # Run XtractPAV with Test Data
 #### Test Data
-The test data is available in the `sample_genome` directory. You can use the provided test data to run **XtractPAV** and verify its functionality.
+The test data is available in the `sample_genomes` directory. You can use the provided test data to run **XtractPAV** and verify its functionality.
 #### Run XtractPAV
 To run **XtractPAV** with the test data, use the following command:
 
