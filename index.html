@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>XtractPAV Tool</title>
+  <style>
+  
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+  
+    header {
+      background-color: #1d2f43;
+      color: white;
+      padding: 1px 0;
+      text-align: center;
+      
+    }
+
+    nav {
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav li {
+      margin: 0 15px;
+    }
+
+    nav a {
+      color: #1d2f43;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover,
+    nav a.active {
+      color: #fff;
+      text-decoration: underline;
+    }
+    nav ul li a:hover {
+    background-color: #1d2f43;
+	  padding:15px;
+    }
+
+
+    section {
+      max-width: 90%;
+      margin: 30px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+
+    section h2 {
+      color: #1d2f43;
+      margin-top: 0;
+    }
+
+    .features li {
+      margin-bottom: 10px;
+    }
+
+ 
+    .install pre {
+      background: #eef7ff;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 15px 0;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    table th {
+      background-color: #1d2f43;
+      color: white;
+      text-align: left;
+    }
+
+    .github-download,
+    .download-btn {
+      display: inline-block;
+      margin: 10px 10px 0 0;
+      background-color: #1d2f43;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .github-download:hover,
+    .download-btn:hover {
+      background-color: #005f99;
+    }
+
+    .tile {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .tile-item {
+      background: #e6f7ffce;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      flex: 1 1 250px;
+      text-align: center;
+    }
+
+    .tile-item h3 {
+      margin: 0 0 10px;
+      color: #1d2f43;
+    }
+
+
+    footer {
+      text-align: center;
+      padding: 15px 0;
+      background-color: #1d2f43;
+      color: white;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #ffdd57;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+
+  <header>
+    <h1>XtractPAV </h1>
+    <p>An Automated Pipeline for Tracing Presence/Absence Variations in Eukaryotic &amp; Prokaryotic Genomes</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#introduction" class="active">Introduction</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#installation">Installation</a></li>
+      <li><a href="#parameters">Parameters</a></li>
+      <li><a href="#io-files">I/O Files</a></li>
+      <li><a href="#test-data">Run Test Data</a></li>
+      <li><a href="#reference">Reference</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+
+
+  <section id="introduction">
+    <h2>Introduction</h2>
+    <p><strong>PAV (Presence/Absence Variation)</strong> describes genetic loci that are present in some genomes but absent in others, driving diversity in traits. <strong>XtractPAV</strong> extracts PAVs by performing several steps and applying various criteria's:</p>
+    <p><strong>XtractPAV:</strong> Pipeline Workflow </p>
+    <img src="flowchart.png" alt="XtractPAV Pipeline Diagram" style="max-width: 60%; height: auto; margin-top: 20px; display: block; margin-left: auto; margin-right: auto;">
+  </section>
+
+
+  <section id="download">
+    <h2>Download</h2>
+    <p>Get the latest release of XtractPAV:</p>
+    <a class="github-download" href="https://github.com/SherazAhmadd/XtractPAV" target="_blank">GitHub Repository</a>
+    <a class="download-btn" href="https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_HERE" target="_blank">Download .rar Archive</a>
+    <a class="download-btn" href="https://drive.google.com/drive/folders/1vhNe_tOCT0J0XBdz7dkfPW9WulF0N6jH?usp=drive_link" target="_blank">Download Tested Data</a>
+  </section>
+
+  <section id="features">
+    <h2>Features</h2>
+    <ul class="features">
+      <li>Extract authentic PAVs with user‑defined length thresholds</li>
+      <li>Multi‑genome support for variation tracking</li>
+      <li>Compatibility with .fa, .fasta, .fna, and more</li>
+      <li>Genic PAV detection with functional annotations</li>
+      <li>Comprehensive final report with interactive visualizations</li>
+    </ul>
+  </section>
+  
+  <section id="installation">
+    <h2>Installation</h2>
+    <p>Clone the repository and set up your environment:</p>
+    <pre>git clone https://github.com/yourusername/XtractPAV.git
+cd XtractPAV
+# Add the bin to PATH
+export PATH=$PATH:/path/to/XtractPAV/bin</pre>
+
+    <h3>Using Conda</h3>
+    <p>for conda it is very simple to install all dependencies using the <code>dependencies.yml</code> file. Just Execute the following commands</p>
+    <pre>conda env create -f XtractPAV-Dependencies.yml
+conda activate XtractPAV</pre>
+<hr>
+
+    <h3>Using the Ubuntu/Debian system</h3>
+    <strong>MUMmer4</strong> (v4.0.0beta2; GCC ≥ 4.7):
+    <pre>sudo apt install mummer4
+
+    or build from source, you can download by clicking <a href="https://github.com/mummer4/mummer/releases"> HERE </a>:
+
+wget https://github.com/mummer4/mummer/releases/download/v4.0.0beta2/mummer-4.0.0beta2.tar.gz
+tar xzf mummer-4.0.0beta2.tar.gz
+cd mummer-4.0.0beta2
+./configure --prefix=/usr/local
+make
+sudo make install
+export PATH=/usr/local/bin:$PATH</pre>
+
+<hr>
+
+    <strong>BLAST+</strong>:
+    <pre>sudo apt install ncbi-blast+
+
+    or download & extract. You can download by clicking <a href="https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/"> HERE </a>:
+
+wget ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ncbi-blast-*-src.tar.gz
+tar xzf ncbi-blast-*-src.tar.gz
+cd ncbi-blast-*/c++
+# then configure & make as per NCBI docs</pre>
+<hr>
+<strong>Bedtools</strong>    
+<p>
+  Bedtools – the swiss army knife for genome arithmetic. You can download via 
+  <a href="https://bedtools.readthedocs.io/en/latest/" target="_blank">Bedtools</a>. 
+  XtractPAV is not version specific to bedtools, however version 2.27.1 or the latest version is preferred.
+</p>
+<pre>
+sudo apt install bedtools
+
+or
+
+tar -zxvf bedtools-2.27.1.tar.gz
+cd bedtools2
+make
+# Add Bedtools tools to your PATH
+export PATH=/path/to/bedtools/bin:$PATH
+</pre>
+<hr>
+    <strong>Python Dependencies</strong> (via pip):
+    <pre>pip install biopython==1.78 <a href="https://biopython.org/"> Here </a>
+pip install plotly==6.0.1 <a href="https://plotly.com/python/getting-started/"> Here </a></pre>
+  </section>
+
+
+  <section id="parameters">
+    <h2>Parameters</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Flag</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>--rf</code></td>
+          <td>Reference genome FASTA file</td>
+          <td>(required)</td>
+        </tr>
+        <tr>
+          <td><code>--ra</code></td>
+          <td>Reference GFF3 annotation</td>
+          <td>(required)</td>
+        </tr>
+        <tr>
+          <td><code>--qf</code></td>
+          <td>Query genome FASTA files (For Multi Genomes use comma‑sep)</td>
+          <td>(required)</td>
+        </tr>
+        <tr>
+          <td><code>--qa</code></td>
+          <td>Query GFF3 annotation files (For Multi Genomes use comma‑sep)</td>
+          <td>(required)</td>
+        </tr>
+        <tr>
+          <td><code>--cov</code></td>
+          <td>Minimum coverage threshold (0–1)</td>
+          <td>0.8 (Float)</td>
+        </tr>
+        <tr>
+          <td><code>--sim</code></td>
+          <td>Minimum similarity percentage</td>
+          <td>90.0 (Float)</td>
+        </tr>
+        <tr>
+          <td><code>--len</code></td>
+          <td>Minimum PAV length (bp)</td>
+          <td>100 (int)</td>
+        </tr>
+        <tr>
+          <td><code>--thr</code></td>
+          <td>Number of threads</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td><code>--help</code></td>
+          <td>Show help message</td>
+          <td>Optional</td>
+        </tr>
+        <tr>
+          <td><code>--version</code></td>
+          <td>Show pipeline version</td>
+          <td>Optional</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="io-files">
+    <h2>Input &amp; Output Files</h2>
+    <h3>Input</h3>
+    <ul>
+      <li>Reference genome: <a href="https://www.ncbi.nlm.nih.gov/genbank/fastaformat/"> FASTA </a> (.fa, .fasta, .fna…)</li>
+      <li>Reference annotation: <a href="http://www.ensembl.org/info/website/upload/gff3.html"> GFF3 </a></li>
+      <li>One or more query genomes + GFF3 annotations</li>
+    </ul>
+    <h3>Output</h3>
+    <ul>
+      <li><code>raw_PAVs/</code> – extracted FASTA sequences</li>
+      <li><code>filtered_PAVs/</code> – passing coverage & similarity filters</li>
+      <li><code>genic_PAVs/</code> – annotated genic PAVs (GFF3)</li>
+      
+      <li><code>report.html</code> – interactive final summary</li>
+      <hr>
+      <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+        <img src="newplot.png" alt="XtractPAV Pipeline Diagram" style="max-width: 45%; height: auto;">
+        <img src="newplot1.png" alt="XtractPAV Pipeline Diagram" style="max-width: 45%; height: auto;">
+      </div>
+      <div style="display: flex; justify-content: center; margin-top: 20px;">
+        <img src="newplot2.png" alt="XtractPAV Pipeline Diagram" style="max-width: 45%; height: auto;">
+        <img src="table1.png" alt="XtractPAV Pipeline Diagram" style="max-width: 45%; height: auto;">
+      </div>
+    </ul>
+  </section>
+  
+
+
+<section id="test-data">
+    <h2>Run XtractPAV with Test Data</h2>
+    <p>Test data is provided in <code>test/</code>. To verify functionality:</p>
+    <pre>XtractPAV.sh \
+  --rf reference_genome.fa \
+  --ra reference_annotation.gff3 \
+  --qf query1.fa,query2.fa \
+  --qa query1.gff3,query2.gff3 \
+  --cov 0.8 --sim 90.0 --len 100 --thr 8</pre>
+  <a class="download-btn" href="https://drive.google.com/uc?export=download&id=TEST_DATA_FILE_ID" target="_blank">Download Test Data</a>
+    <p>After running, check the <code>output/</code> directory for results.</p>
+    <p>For more details, refer to the <a href="#parameters">Parameters</a> section.</p>
+  </section>
+
+
+  <section id="reference">
+    <h2>Reference</h2>
+    <p>R. S. Ahmad, M. T. Qamar, H. Li. <em>XtractPAV: An Automated Pipeline for Presence/Absence Variations Tracing in Eukaryotic &amp; Prokaryotic Genomes</em>, Bioinformatics. <a href="https://doi.org/10.1093/bioinformatics/example" target="_blank">https://doi.org/10.1093/bioinformatics/example</a></p>
+  </section>
+
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>For questions or support, please reach out:</p>
+    <ul>
+      <li>Rana Sheraz Ahmad: <a href="mailto:ranasheraz.202101902@gcuf.edu.pk">ranasheraz.202101902@gcuf.edu.pk</a></li>
+      <li>Muhammad Tahir ul Qamar: <a href="mailto:m.tahirulqamar@hotmail.com">m.tahirulqamar@hotmail.com</a></li>
+    </ul>
+  </section>
+
+
+  <footer>
+    <p>&copy; Integrative Omics and Molecular Modeling Lab - IOMM. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
