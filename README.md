@@ -34,10 +34,10 @@ A pipeline for extracting Presence-Absence Variations (PAVs) in eukaryotic and p
 Using *XtractPAV* is very easy. Simply clone the repository or use the wget and uncompressed it.
 
 ```
-git clone https://github.com/yourusername/XtractPAV.git
-cd XtractPAV
+git clone https://github.com/SherazAhmadd/XtractPAV
+cd XtractPAV/XtractPAV-pipeline
 # Add the bin to PATH
-export PATH=$PATH:/path/to/XtractPAV/bin
+export PATH=$PATH:/path/to/XtractPAV
 ```
 
 
