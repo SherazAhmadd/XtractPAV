@@ -1,3 +1,14 @@
+#-------------------------------------------------------------------------------
+# Script for retrieval of genic PAVs sequence without N's
+# Authors:
+#    Rana Sheraz Ahmad           : ranasheraz.202101902@gcuf.edu.pk
+#    Mr. Muhammad Sadaqat        : muhammad.sadaqat@univ-rennes.fr
+#    Dr. Muhammad Tahir ul Qamar : tahirulqamar@gcuf.edu.pk
+# Created Time: 
+#        Sat May 31 01:11:39 2025
+# Version: 
+#        1.0 [ initial release ]
+#-------------------------------------------------------------------------------
 import sys
 import pandas as pd
 from Bio import SeqIO
