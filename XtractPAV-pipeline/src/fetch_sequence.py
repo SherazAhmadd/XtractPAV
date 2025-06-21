@@ -1,3 +1,14 @@
+#-------------------------------------------------------------------------------
+# Script for Sequence retrieval & dealing with N's
+# Authors:
+#    Mr. Rana Sheraz Ahmad       : ranasheraz.202101902@gcuf.edu.pk
+#    Mr. Muhammad Sadaqat        : muhammad.sadaqat@univ-rennes.fr
+#    Dr. Muhammad Tahir ul Qamar : tahirulqamar@gcuf.edu.pk
+# Created Time: 
+#        Fri May 09 12:25:34 2025
+# Version: 
+#        1.0 [ initial release ]
+#-------------------------------------------------------------------------------
 import sys
 from Bio import SeqIO
 from Bio.Seq import Seq
