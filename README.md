@@ -17,13 +17,13 @@ A pipeline for extracting Presence-Absence Variations (PAVs) in eukaryotic and p
 
 ## Introduction
 
-**PAV (Present/Absence Variation)** is a form of structural genetic variation where specific genes or genomic regions are completely present in some individuals or species but entirely absent in others. Unlike small-scale variations like SNPs, PAVs involve larger segments of DNA and can significantly impact phenotype by altering gene content. Common in both eukaryotic and prokaryotic genomes, PAVs contribute to genetic diversity, adaptation, evolution, and traits such as disease resistance or pathogenicity. They often result from gene duplication, deletion, or horizontal gene transfer, and their analysis is crucial in fields like evolutionary biology, agriculture, microbial genomics, and personalized medicine.
+**PAV (Present/Absence Variation)** is a form of structural variation where specific genes or genomic regions are present in some individuals or species but absent in others. Unlike small-scale variations like SNPs, PAVs involve larger segments of DNA and can significantly impact phenotype by altering gene content. Common in both eukaryotic and prokaryotic genomes, PAVs contribute to genetic diversity, adaptation, evolution, and traits such as disease resistance or pathogenicity. They often result from gene duplication, deletion, or horizontal gene transfer, and their analysis is crucial in fields like evolutionary biology, agriculture, microbial genomics, and personalized medicine.
 
 
 **XtractPAV** is an automated pipeline, designed to extract **Presence/Absence Variations (PAVs)** from genomic datasets. The pipeline utilizes **Mummer4** for the comparative analysis of genomes and incorporates custom Python scripts for the extraction of raw PAVs. the pipeline applies a set of coverage and similarity criteria  to identify authentic PAVs. **XtractPAV** is capable of identifying **genic PAVs** and provides annotations for these variations. The pipeline generates a final report, which includes interactive visualizations illustrating the distribution and characteristics of the PAVs across the genomes analyzed.
 
 ## Features
-- Extracts the authentic PAVs and allows users to set a minimum length threshold for the PAVs.
+- Extracts the validated PAVs and allows users to set a minimum length threshold for the PAVs.
 - Support for multiple genomes, enabling the tracking of variations across diverse samples.
 - Compatibility with various genome file formats, accepting extensions such as .fa, .fasta, .fna, or any other common genome file suffix.
 - Usability across a wide range of genomes, including both eukaryotic and prokaryotic organisms.
@@ -106,7 +106,7 @@ export PATH=$PATH:/path/to/XtractPAV
        pip install plotly==6.0.1
 
        ```
-XtractPAV currently only supports Linux system due to the software dependencies
+XtractPAV currently only supports Linux system due to the software dependencies.
 ## Parameters
 
 The following parameters can be used to customize the execution of the **XtractPAV** pipeline:
@@ -220,6 +220,6 @@ Rana Sheraz Ahmad, Muhammad Tahir ul Qamar, Heng Li. XtractPAV: An Automated Pip
 
 # Contact Us
 For any questions or issues, please contact us at:
-- **Rana Sheraz Ahmad**: [ranasheraz.202101902@gcuf.edu.pk](mailto:ranasheraz.202101902@gcuf.edu.pk)
-- **Muhammad Tahir ul Qamar**: [m.tahirulqamar@hotmail.com](mailto:m.tahirulqamar@hotmail.com)
+- **Mr. Rana Sheraz Ahmad**: [ranasheraz.202101902@gcuf.edu.pk](mailto:ranasheraz.202101902@gcuf.edu.pk)
+- **Dr. Muhammad Tahir ul Qamar**: [m.tahirulqamar@hotmail.com](mailto:m.tahirulqamar@hotmail.com)
 
