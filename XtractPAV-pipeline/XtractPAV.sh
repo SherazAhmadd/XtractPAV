@@ -1,7 +1,12 @@
+#-------------------------------------------------------------------------------
 #!/bin/bash
-# Author: Rana Sheraz Ahmad [ ranasheraz.202101902@gcuf.edu.pk ]
-# XtractPAV: A Presence/Absence Variation Scanning and Identification tool
+# XtractPAV: A Presence/Absence Variation Scanning and Identification Tool
+# Authors: Rana Sheraz Ahmad: ranasheraz.202101902@gcuf.edu.pk 
+#          Mr. Muhammad Sadaqat: muhammad.sadaqat@univ-rennes.fr
+#          Dr. Muhammad Tahir ul Qamar: tahirulqamar@gcuf.edu.pk
+# Created Time: Fri Jun 05 13:21:55 2025
 # Version: 1.0
+#-------------------------------------------------------------------------------
 
 version="XtractPAV v1.0"
 
