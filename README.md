@@ -2,6 +2,8 @@
 
 A pipeline for extracting Presence-Absence Variations (PAVs) in eukaryotic and prokaryotic genomes across multiple assemblies.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15712430.svg)](https://doi.org/10.5281/zenodo.15712430)
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
