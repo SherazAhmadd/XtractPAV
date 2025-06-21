@@ -123,7 +123,6 @@ The following parameters can be used to customize the execution of the **XtractP
 | `--thr`         | Number of threads to use for parallel processing.                                               | `--thr 8`                              |
 | `--help`        | Display help information and usage instructions.                                                | `--help`                               |
 | `--version`     | Display the version of the XtractPAV pipeline.                                                    | `--version`                            |
-|
 
 *Note:* Coverage and similarity thresholds must be in Float format (e.g., `0.8` for 80% coverage or `90.0` for 90% similarity). The length threshold must be an integer (e.g., `100` for a minimum length of 100 base pairs). 
 
@@ -215,11 +214,12 @@ XtractPAV.sh --rf S_Entrica_LT2.fna --ra S_Entrica_LT2.gff --qf S_Agona_SL483.fn
 ```
 
 # Reference
-Rana Sheraz Ahmad, Muhammad Tahir ul Qamar, Heng Li. XtractPAV: An Automated Pipeline for Identifying Presence–Absence Variations Across Multiple Genomes Genomes. *Bioinformatics*, [https://doi.org/10.1093/bioinformatics/example](https://doi.org/10.1093/bioinformatics/example)
+ - In process
 
 
 # Contact Us
 For any questions or issues, please contact us at:
 - **Mr. Rana Sheraz Ahmad**: [ranasheraz.202101902@gcuf.edu.pk](mailto:ranasheraz.202101902@gcuf.edu.pk)
+- **Mr. Muhammad Sadaqat**: [muhammad.sadaqat@univ-rennes.fr](mailto:muhammad.sadaqat@univ-rennes.fr)
 - **Dr. Muhammad Tahir ul Qamar**: [m.tahirulqamar@hotmail.com](mailto:m.tahirulqamar@hotmail.com)
 
