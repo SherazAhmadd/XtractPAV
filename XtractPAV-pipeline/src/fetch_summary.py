@@ -1,3 +1,14 @@
+#-------------------------------------------------------------------------------
+# Script for curate the report of PAV analysis
+# Authors:
+#    Rana Sheraz Ahmad           : ranasheraz.202101902@gcuf.edu.pk
+#    Mr. Muhammad Sadaqat        : muhammad.sadaqat@univ-rennes.fr
+#    Dr. Muhammad Tahir ul Qamar : tahirulqamar@gcuf.edu.pk
+# Created Time: 
+#        Mon Jun 02 23:49:05 2025
+# Version: 
+#        1.0 [ initial release ]
+#-------------------------------------------------------------------------------
 import sys
 import plotly.graph_objects as go
 import plotly.express as px
