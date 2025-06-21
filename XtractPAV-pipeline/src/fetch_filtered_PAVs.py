@@ -1,3 +1,14 @@
+#-------------------------------------------------------------------------------
+# Script for filtered PAV Extraction
+# Authors:
+#    Rana Sheraz Ahmad           : ranasheraz.202101902@gcuf.edu.pk
+#    Mr. Muhammad Sadaqat        : muhammad.sadaqat@univ-rennes.fr
+#    Dr. Muhammad Tahir ul Qamar : tahirulqamar@gcuf.edu.pk
+# Created Time: 
+#        Sat May 15 19:31:14 2025
+# Version: 
+#        1.0 [ initial release ]
+#-------------------------------------------------------------------------------
 from Bio import SeqIO
 import sys
 import re
