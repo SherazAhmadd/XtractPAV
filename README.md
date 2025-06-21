@@ -221,5 +221,5 @@ XtractPAV.sh --rf S_Entrica_LT2.fna --ra S_Entrica_LT2.gff --qf S_Agona_SL483.fn
 For any questions or issues, please contact us at:
 - **Mr. Rana Sheraz Ahmad**: [ranasheraz.202101902@gcuf.edu.pk](mailto:ranasheraz.202101902@gcuf.edu.pk)
 - **Mr. Muhammad Sadaqat**: [muhammad.sadaqat@univ-rennes.fr](mailto:muhammad.sadaqat@univ-rennes.fr)
-- **Dr. Muhammad Tahir ul Qamar**: [m.tahirulqamar@hotmail.com](mailto:m.tahirulqamar@hotmail.com)
+- **Dr. Muhammad Tahir ul Qamar**: [m.tahirulqamar@hotmail.com](mailto:tahirulqamar@gcuf.edu.pk)
 
