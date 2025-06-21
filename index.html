@@ -179,7 +179,7 @@
 
   <section id="introduction">
     <h2>Introduction</h2>
-    <p><strong>PAV (Presence/Absence Variation)</strong> describes genetic loci that are present in some genomes but absent in others, driving diversity in traits. <strong>XtractPAV</strong> extracts PAVs by performing several steps and applying various criteria's:</p>
+    <p><strong>PAV (Presence/Absence Variation)</strong> is a form of structural variation where specific genes or genomic regions are present in some individuals or species but absent in others. Unlike small-scale variations like SNPs, PAVs involve larger segments of DNA and can significantly impact phenotype by altering gene content. Common in both eukaryotic and prokaryotic genomes, PAVs contribute to genetic diversity, adaptation, evolution, and traits such as disease resistance or pathogenicity. They often result from gene duplication, deletion, or horizontal gene transfer, and their analysis is crucial in fields like evolutionary biology, agriculture, microbial genomics, and personalized medicine.</p>
     <p><strong>XtractPAV:</strong> Pipeline Workflow </p>
     <img src="https://raw.githubusercontent.com/SherazAhmadd/XtractPAV/main/Flowchart.png" alt="XtractPAV Pipeline Diagram" style="max-width: 60%; height: auto; margin-top: 20px; display: block; margin-left: auto; margin-right: auto;">
   </section>
@@ -196,7 +196,7 @@
   <section id="features">
     <h2>Features</h2>
     <ul class="features">
-      <li>Extract authentic PAVs with user‑defined length thresholds</li>
+      <li>Extract validated PAVs with user‑defined length thresholds</li>
       <li>Multi‑genome support for variation tracking</li>
       <li>Compatibility with .fa, .fasta, .fna, and more</li>
       <li>Genic PAV detection with functional annotations</li>
@@ -364,22 +364,17 @@ pip install plotly==6.0.1 <a href="https://plotly.com/python/getting-started/"> 
 
 <section id="test-data">
     <h2>Run XtractPAV with Test Data</h2>
-    <p>Test data is provided in <code>test/</code>. To verify functionality:</p>
-    <pre>XtractPAV.sh \
-  --rf reference_genome.fa \
-  --ra reference_annotation.gff3 \
-  --qf query1.fa,query2.fa \
-  --qa query1.gff3,query2.gff3 \
-  --cov 0.8 --sim 90.0 --len 100 --thr 8</pre>
+    <p>Test data is provided in <code>Sample_data/</code>. To verify functionality:</p>
+    <pre>XtractPAV.sh --rf S_Entrica_LT2.fna --ra S_Entrica_LT2.gff --qf S_Agona_SL483.fna --qa S_Agona_SL483.gff --cov 0.9 --sim 95.0 --len 100 --thr 8</pre>
   <a class="download-btn" href="https://drive.google.com/uc?export=download&id=1WSrLZppF9E1GHGUxdATSriaBvHKHeSHp" target="_blank">Download Test Data</a>
-    <p>After running, check the <code>output/</code> directory for results.</p>
+    <p>After running, check the <code>Results/</code> directory for results.</p>
     <p>For more details, refer to the <a href="#parameters">Parameters</a> section.</p>
   </section>
 
 
   <section id="reference">
     <h2>Reference</h2>
-    <p>R. S. Ahmad, M. T. Qamar, H. Li. <em>XtractPAV: An Automated Pipeline for Presence/Absence Variations Tracing in Eukaryotic &amp; Prokaryotic Genomes</em>, Bioinformatics. <a href="https://doi.org/10.1093/bioinformatics/example" target="_blank">https://doi.org/10.1093/bioinformatics/example</a></p>
+    <p>In process</p>
   </section>
 
 
@@ -387,8 +382,9 @@ pip install plotly==6.0.1 <a href="https://plotly.com/python/getting-started/"> 
     <h2>Contact Us</h2>
     <p>For questions or support, please reach out:</p>
     <ul>
-      <li>Rana Sheraz Ahmad: <a href="mailto:ranasheraz.202101902@gcuf.edu.pk">ranasheraz.202101902@gcuf.edu.pk</a></li>
-      <li>Muhammad Tahir ul Qamar: <a href="mailto:m.tahirulqamar@hotmail.com">m.tahirulqamar@hotmail.com</a></li>
+      <li>Mr. Rana Sheraz Ahmad: <a href="mailto:ranasheraz.202101902@gcuf.edu.pk">ranasheraz.202101902@gcuf.edu.pk</a></li>
+      <li>Mr. Muhammad Sadaqat: <a href="mailto:muhammad.sadaqat@univ-rennes.fr">muhammad.sadaqat@univ-rennes.fr</a></li>
+      <li>Dr. Muhammad Tahir ul Qamar: <a href="mailto:m.tahirulqamar@hotmail.com">m.tahirulqamar@hotmail.com</a></li>
     </ul>
   </section>
 
