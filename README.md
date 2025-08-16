@@ -2,7 +2,13 @@
 
 A pipeline for extracting Presence-Absence Variations (PAVs) in eukaryotic and prokaryotic genomes across multiple assemblies.
 
+![Platform](https://img.shields.io/badge/platform-Linux-%23FF6600?logo=linux)
+[![Stars](https://img.shields.io/github/stars/SherazAhmadd/XtractPAV?style=social&color=green)](https://github.com/SherazAhmadd/XtractPAV/stargazers)
+[![GitHub release date](https://img.shields.io/github/release-date/SherazAhmadd/XtractPAV?color=yellow&label=Release%20Date&labelColor=grey)](https://github.com/SherazAhmadd/XtractPAV/releases) 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15712430.svg)](https://doi.org/10.5281/zenodo.15712430)
+[![Paper](https://img.shields.io/badge/paper-published-brightgreen)](https://doi.org/10.1101/2025.06.27.661953)
+
+
 
 
 ## Table of Contents
