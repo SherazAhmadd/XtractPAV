@@ -212,7 +212,7 @@ The final report includes interactive visualizations and a detailed table of PAV
   | PAV3          | NC_010067.1      | 150997  | 157358  | 6362       |
 
 
-# Run XtractPAV with Test Data
+## Run XtractPAV with Test Data
 #### Test Data
 The test data is available in the `sample_genomes` directory. You can use the provided test data to run **XtractPAV** and verify its functionality.
 #### Run XtractPAV
@@ -222,13 +222,33 @@ To run **XtractPAV** with the test data, use the following command:
 XtractPAV.sh --rf S_Entrica_LT2.fna --ra S_Entrica_LT2.gff --qf S_Agona_SL483.fna --qa S_Agona_SL483.gff --cov 0.9 --sim 95.0 --len 100 --thr 8
 ```
 
-# Reference
+## Reference
  - In process
 
+## License
 
-# Contact Us
+This XtractPAV is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+## Authors and Contacts  
 For any questions or issues, please contact us at:
-- **Mr. Rana Sheraz Ahmad**: [ranasheraz.202101902@gcuf.edu.pk](mailto:ranasheraz.202101902@gcuf.edu.pk)
-- **Mr. Muhammad Sadaqat**: [muhammad.sadaqat@univ-rennes.fr](mailto:muhammad.sadaqat@univ-rennes.fr)
-- **Dr. Muhammad Tahir ul Qamar**: [m.tahirulqamar@hotmail.com](mailto:tahirulqamar@gcuf.edu.pk)
 
+**Mr. Rana Sheraz Ahmad**  
+*Integrative Omics and Molecular Modeling Laboratory, Department of Bioinformatics and Biotechnology, Government College University Faisalabad (GCUF), Faisalabad, 38000, Pakistan*  
+Email: [ranasheraz.202101902@gcuf.edu.pk](mailto:ranasheraz.202101902@gcuf.edu.pk)
+
+**Mr. Muhammad Sadaqat**    
+*UMR CNRS 6553 Ecosystèmes, Biodiversité, Evolution (ECOBIO), Université de Rennes 1, Rennes, France*    
+Email: [muhammad.sadaqat@univ-rennes.fr](mailto:muhammad.sadaqat@univ-rennes.fr)
+
+**Dr. Muhammad Tahir ul Qamar** *(Correspondence)*  
+*Integrative Omics and Molecular Modeling Laboratory, Department of Bioinformatics and Biotechnology, Government College University Faisalabad (GCUF), Faisalabad, 38000, Pakistan*  
+Email: [m.tahirulqamar@hotmail.com](mailto:m.tahirulqamar@hotmail.com)
+
+**Dr. Khaled S. Allemailem**    
+*Department of Medical Laboratories, College of Applied Medical Sciences, Qassim University, Buraydah 51452, Saudi Arabia*    
+Email: [k.allemailem@qu.edu.sa](mailto:k.allemailem@qu.edu.sa)
+
+**Dr. Nada A. Alzunaidy** *(Correspondence)*    
+*Department of Food Science and Human Nutrition, College of Agriculture and Food, Qassim University, Buraydah 51452, Saudi Arabia*    
+Email: [n.alznedy@qu.edu.sa](mailto:n.alznedy@qu.edu.sa)
