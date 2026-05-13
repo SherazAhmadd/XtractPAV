@@ -6,7 +6,7 @@ A pipeline for extracting Presence-Absence Variations (PAVs) in eukaryotic and p
 [![Stars](https://img.shields.io/github/stars/SherazAhmadd/XtractPAV?style=social&color=green)](https://github.com/SherazAhmadd/XtractPAV/stargazers)
 [![GitHub release date](https://img.shields.io/github/release-date/SherazAhmadd/XtractPAV?color=yellow&label=Release%20Date&labelColor=grey)](https://github.com/SherazAhmadd/XtractPAV/releases) 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15712430.svg)](https://doi.org/10.5281/zenodo.15712430)
-[![Paper](https://img.shields.io/badge/paper-published-brightgreen)](https://doi.org/10.1101/2025.06.27.661953)
+[![Paper](https://img.shields.io/badge/paper-published-brightgreen)](https://doi.org/10.1186/s12864-026-12909-2)
 
 
 
@@ -20,8 +20,8 @@ A pipeline for extracting Presence-Absence Variations (PAVs) in eukaryotic and p
 - [Parameters](#parameters)
 - [Input & Output Files](#input--output-files)
 - [Run XtractPAV with Test Data](#run-xtractpav-with-test-data)
-- [Reference](#reference)
-- [Contact Us](#contact-us)
+- [Citation](#citation)
+- [Authors and Contacts](#authors-and-contacts)
 
 
 ## Introduction
@@ -222,8 +222,11 @@ To run **XtractPAV** with the test data, use the following command:
 XtractPAV.sh --rf S_Entrica_LT2.fna --ra S_Entrica_LT2.gff --qf S_Agona_SL483.fna --qa S_Agona_SL483.gff --cov 0.9 --sim 95.0 --len 100 --thr 8
 ```
 
-## Reference
- - In process
+## Citation
+
+If you use [XtractPAV](https://sherazahmadd.github.io/XtractPAV) in your work, please cite:
+
+Ahmad, R., Sadaqat, M., Tahir ul Qamar, M. et al. *XtractPAV: an automated pipeline for identifying presence–absence variations across multiple genomes*. BMC Genomics (2026). [https://doi.org/10.1186/s12864-026-12909-2](https://doi.org/10.1186/s12864-026-12909-2)
 
 ## License
 
