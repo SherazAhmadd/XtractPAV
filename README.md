@@ -1,6 +1,6 @@
 <p align="center">
   <img 
-    src="https://drive.google.com/uc?export=view&id=1DygAntr2yC0RxBvDev61avUisgQw04in" 
+    src="https://drive.google.com/uc?export=view&id=1UNOg436OkQIHWDnVl_kMYvRYcKK-FqDS" 
     alt="XtractPAV Logo" width="550"
   >
 </p>
