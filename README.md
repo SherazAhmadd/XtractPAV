@@ -13,8 +13,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15712430.svg)](https://doi.org/10.5281/zenodo.15712430) 
 [![Paper](https://img.shields.io/badge/paper-published-brightgreen)](https://doi.org/10.1186/s12864-026-12909-2)
 ![License](https://img.shields.io/badge/LICENSE-MIT-lightgrey)
-![Environment](https://img.shields.io/badge/Environment-Conda-44A833)
-
 </div>
 
 
