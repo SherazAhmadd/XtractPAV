@@ -1,14 +1,21 @@
-# XtractPAV: An Automated Pipeline for Identifying Presence–Absence Variations Across Multiple Genomes
+<p align="center">
+  <img 
+    src="https://drive.google.com/uc?export=view&id=1DygAntr2yC0RxBvDev61avUisgQw04in" 
+    alt="XtractPAV Logo" width="550"
+  >
+</p>
 
-A pipeline for extracting Presence-Absence Variations (PAVs) in eukaryotic and prokaryotic genomes across multiple assemblies.
+<div align="center">
 
-![Platform](https://img.shields.io/badge/platform-Linux-%23FF6600?logo=linux)
-[![Stars](https://img.shields.io/github/stars/SherazAhmadd/XtractPAV?style=social&color=green)](https://github.com/SherazAhmadd/XtractPAV/stargazers)
+![Platform](https://img.shields.io/badge/platform-Linux-%23FF6600?logo=linux) 
+[![Stars](https://img.shields.io/github/stars/SherazAhmadd/XtractPAV?style=social&color=green)](https://github.com/SherazAhmadd/XtractPAV/stargazers) 
 [![GitHub release date](https://img.shields.io/github/release-date/SherazAhmadd/XtractPAV?color=yellow&label=Release%20Date&labelColor=grey)](https://github.com/SherazAhmadd/XtractPAV/releases) 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15712430.svg)](https://doi.org/10.5281/zenodo.15712430)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15712430.svg)](https://doi.org/10.5281/zenodo.15712430) 
 [![Paper](https://img.shields.io/badge/paper-published-brightgreen)](https://doi.org/10.1186/s12864-026-12909-2)
+![License](https://img.shields.io/badge/LICENSE-MIT-lightgrey)
+![Environment](https://img.shields.io/badge/Environment-Conda-44A833)
 
-
+</div>
 
 
 ## Table of Contents
